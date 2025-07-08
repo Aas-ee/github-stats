@@ -334,8 +334,8 @@ Languages:
             )
 
             repos = owned_repos.get("nodes", [])
-            if not self._ignore_forked_repos:
-                repos += contrib_repos.get("nodes", [])
+            #if not self._ignore_forked_repos:
+                #repos += contrib_repos.get("nodes", [])
 
             for repo in repos:
                 if repo is None:
